@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi_porfolio</title>
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">Ramiro</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/fotosyo/foto nav.jpg" alt="foto">
+            </div>
+            <h1>Ramiro Canevari</h1>
+            <div class="redes">
+                <a href="https://www.facebook.com/ramiro.canevari/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ramicanevari/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ramiro-manuel-canevari-galo-92040a26a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/RamiCanevari" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola soy Ramiro Canevari.</span> En esta sección quiero compartir un poco sobre mis intereses e información básica. Disfruto de las carreras de Fórmula 1, la música en general, aunque lo que más escucho es rap y hip hop. Me gusta viajar y, sobre todo, cuando soy yo quien conduce. También disfruto hacer ejercicio y los paseos de fin de semana. En los últimos meses, he estado estudiando programación y me gustaría seguir desarrollando esta habilidad. </p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            24/06/1996
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3516203766
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ramirocanevari24@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Lorenzo Barcala 653, Cordoba
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARRERAS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>GYM</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>PASEOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="doc/Curriculum vitae.pdf" target="_blank"><button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button></a>
+        </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Instituto Renault</h4>
+                        <span class="casa">Técnico superior en motores</span>
+                        <span class="fecha">MARZO DEL 2023-ACTUALIDAD, CIUDAD DE CÓRDOBA</span>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Celsius Oficios</h4>
+                        <span class="casa">Programación</span>
+                        <span class="fecha">MARZO DEL 2023-JUNIO DEL 2023, CIUDAD DE CÓRDOBA</span>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Universidad Católica de Córdoba</h4>
+                        <span class="casa">Ingeniería Mecánica</span>
+                        <span class="fecha">MARZO DEL 2022-SEPTIEMBRE DEL 2022, CIUDAD DE CÓRDOBA</span>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Universidad Tecnológica Nacional - FRC</h4>
+                        <span class="casa"> Ingeniería Mecánica</span>
+                        <span class="fecha">MARZO DEL 2014-DICIEMBRE DEL 2021, CIUDAD DE CÓRDOBA</span>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Institución Escuti</h4>
+                        <span class="casa">Humanista social</span>
+                        <span class="fecha">MARZO DEL 2012-DICIEMBRE DEL 2013, CIUDAD DE CÓRDOBA</span>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Colegio Parroquial Nuestra Sra. del Carmen</h4>
+                        <span class="casa">Ciencias Naturales</span>
+                        <span class="fecha">MARZO DEL 2009-DICIEMBRE DEL 2011, CIUDAD DEL CARMEN (JUJUY)</span>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Instituto San Agustín</h4>
+                        <span class="casa">Ayudante Mecánico</span>
+                        <span class="fecha">MARZO DEL 2010-DICIEMBRE DEL 2010, CIUDAD DE PERICO (JUJUY)</span>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Colegio Blaise Pasca</h4>
+                        <span class="casa">Ciencias Naturales/Humanista</span>
+                        <span class="fecha">MARZO DEL 2008-DICIEMBRE DEL 2008, CIUDAD DE SAN SALVADOR DE
+                            JUJUY (JUJUY)</span>
+                        <div class="contenedori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>MC seguros</h4>
+                        <span class="casa">Atención al publico</span>
+                        <span class="fecha">OCTUBRE DEL 2017-NOVIEMBRE DEL 2022, CIUDAD DE CÓRDOBA</span>
+                        <p>Atención al público, Trabajo de oficina, liquidador de cuotas de la
+                            aseguradora para la empresa y encargado de la cobranza de las cuotas</p>
+                        <div class="contenedord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Farmacia Cumbre</h4>
+                        <span class="casa">Administrador</span>
+                        <span class="fecha">JULIO DEL 2021-DICIEMBRE DEL 2021, CIUDAD DE MONTERRICO - JUJUY</span>
+                        <p>Administrador ejecutivo con personal a cargo</p>
+                        <div class="contenedord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Pagina Web</h4>
+                        <span class="casa">Primera pagina web</span>
+                        <span class="fecha">JUNIO 2023</span>
+                        <p>Desarrolle esta pagina web como trabajo practico en la realizacion de mi primer curso de programacion llevado a cabo en los meses de Marzo a Junio del Instituto Celsius <br> <strong><a href="https://wt0vftyhphsvzhlnkcwksa.on.drv.tw/Primer%20Webside/" target="_blank">Mi Primer Pagina Web</a></strong></p>
+                        <div class="contenedord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <form action="https://formsubmit.co/ramirocanevari24@gmail.com" method="POST">
+                        <input type="text" name="Nombre" placeholder="Tu Nombre">
+                        <input type="tel" name="Telefono" placeholder="Numero telefonico">
+                        <input type="email" name="email" placeholder="Direccion de correo">
+                        <input type="text" name="Asunto" placeholder="Asunto">
+                        <textarea id="" name="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+                <div class="col">
+                    <img src="imagenes/mapa.jpg" alt="mapa">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Lorenzo Barcala 653, Cda. Cordoba, Cordoba 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Llamame: 351 - 6203766
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ramirocanevari24@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/ramiro.canevari/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ramicanevari/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ramiro-manuel-canevari-galo-92040a26a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/RamiCanevari" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
